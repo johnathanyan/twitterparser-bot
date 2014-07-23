@@ -1,4 +1,6 @@
-var size = "9.5";
+var storage = chrome.storage.local;
+var size;
+storage.get("_size", function(result){size = result._size});
 var amount = 1;
 var cartClicked = 0;
 

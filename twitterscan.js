@@ -1,4 +1,6 @@
-var shoeName = "KD7";
+var storage = chrome.storage.local;
+var shoeName;
+storage.get("_item", function(result){shoeName = result._item});
 var nikestore = "nikestore";
 var closeFlag = "no";
 var tFunction = "twitterScan()";

@@ -23,8 +23,8 @@ function addToCart() {
 	
 	getImagesByAlt(item)[0].click();
 	if (once == false){
-		setTimeout("location.reload()", 400);
 		once = true;
+		setTimeout("location.reload()", 600);
 	}
 
 	function setSize(){
