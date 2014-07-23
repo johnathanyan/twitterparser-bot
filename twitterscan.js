@@ -1,4 +1,4 @@
-var shoeName = "Flyknit";
+var shoeName = "KD7";
 var nikestore = "nikestore";
 var closeFlag = "no";
 var tFunction = "twitterScan()";
