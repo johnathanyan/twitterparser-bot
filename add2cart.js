@@ -25,10 +25,10 @@ function addToCart() {
 	if (sizeList != undefined) {
 		setSize();
 		document.getElementsByClassName("add-to-cart nsg-button--nike-orange")[0].click();
-		document.getElementsByClassName("exp-onenikenav-cartcount")[0].click();
+		//document.getElementsByClassName("exp-onenikenav-cartcount")[0].click();
 	}
 
-	cartClick();
+	//cartClick();
 
 }
 

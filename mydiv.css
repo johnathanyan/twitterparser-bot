@@ -1,0 +1,22 @@
+#mydiv {
+    top: 50%;
+    left: 50%;
+    width:45em;
+    height:30em;
+    margin-top: -15em; /*set to a negative number 1/2 of your height*/
+    margin-left: -22em; /*set to a negative number 1/2 of your width*/
+    border: 4px solid #FF7519;
+    background-color: #3E3E42;
+    position:fixed;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

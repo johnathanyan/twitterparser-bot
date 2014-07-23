@@ -1,8 +1,9 @@
 {
 	"manifest_version": 2,
 
-	"name": "Nike Twitter Bot",
+	"name": "Nike/Supreme Bot",
 	"description": "Specially designed for C's'.",
+	"options_page": "options.html",
 
 	"version": "1.0",
 
@@ -15,21 +16,24 @@
 	  "matches": ["*://twitter.com/*"],
       "js": ["twitterscan.js"]
 		},
-		{
-      "matches": ["*://www.supremenewyork.com/*"],
-      "js": ["supremebot.js"]
-    	},
     	{
       "matches": ["https://www.supremenewyork.com/checkout"],
       "js": ["checkout.js"]
+    	},
+    	{
+      "matches": ["*://www.supremenewyork.com/*"],
+      "js": ["supremebot.js"]
     	}
 	],
+
+	"background": { "scripts": ["background.js"] },
 
 	"permissions": [
 		"*://www.supremenewyork.com/*",
 		"https://store.nike.com/*",
 		"https://secure-store.nike.com/*",
 		"*://twitter.com/*",
+		"storage",
 		"tabs"
 	],
 
